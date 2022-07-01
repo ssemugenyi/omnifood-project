@@ -447,3 +447,12 @@ width: 100%;
 .gallery-item img:hover{
     transform: scale(1.5);
 }
+
+
+/*****************
+PRICING SECTION
+******************/
+.section-pricing{
+    padding: 9.6rem 0;
+
+}
