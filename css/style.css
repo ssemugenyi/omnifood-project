@@ -567,4 +567,22 @@ CTA SECTION
 .cta{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    /* background-color: #e67e22; */
+    box-shadow: 0 2.4rem 4.6rem rgba(0, 0, 0, 0.15);
+    border-radius: 11px;
+    overflow: hidden;
+
+    /* //temp height: ; */
+    height: 50rem;
+    
+   
+    /* background-image: linear-gradient(to right bottom,#198754,#343a40 ); */
+    background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+}.cta-text-box{
+
+}
+.cta-img-box{
+background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)),url('../img/eating.jpg');
+background-size: cover;
+background-position: center;
 }
